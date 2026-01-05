@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -25,7 +25,7 @@ header h1 {
 body {
     line-height: 1.6;
     color: #f1ecec;
-    background: #222222;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,10 +62,15 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: hsla(0, 49%, 50%, 0.5);
+    background: hsla(220, 70%, 50%, 0.5);
     padding: 20px;
     border-radius: 16px;
     backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.detail {
+    background: hsla(120, 70%, 50%, 0.5);
 }
 
 .profile-photo {
@@ -92,10 +97,14 @@ h6 {
 }
 
 .detail li, .profil li {
-    background: #ff9900;
+    background: #28a745;
     padding: 10px;
     border-radius: 8px;
     color: #222;
+}
+
+.detail li {
+    background: #007bff;
 }
 
 .detail a {
