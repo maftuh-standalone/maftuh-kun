@@ -25,7 +25,8 @@ header h1 {
 body {
     line-height: 1.6;
     color: #f1ecec;
-    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
