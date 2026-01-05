@@ -10,10 +10,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: #222222;
+    background: transparent;
+    transition: background 0.3s;
+    z-index: 999;
     padding: 10px 20px;
-    z-index: 10;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+/* buat header jadi fixed di atas dan beri warna background blue */
+
+header.scrolled {
+    background: rgba(0, 0, 0, 0.5); /* Semitransparan */
+    backdrop-filter: blur(10px); /* Blur */
+    color: #fff; /* Warna teks menjadi lebih gelap */
 }
 
 header h1 {
@@ -113,22 +120,18 @@ h6 {
     transform: scale(1.1);
 }
 
-/*************  ✨ Windsurf Command 🌟  *************/
 .past {
     max-width: 800px;
     width: 100%;
     margin: 20px auto;
     padding: 20px;
-    background: transparent;
     background: hsla(280, 70%, 50%, 0.5);
     border-radius: 16px;
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     color: #fff;
     text-align: center;
-    opacity: 0.5;
 }
-/*******  bd36b060-2eb4-4473-9cc3-f6687f5420f9  *******/
 
 .past h2 {
     font-size: 20px;
