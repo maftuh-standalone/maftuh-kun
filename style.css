@@ -15,12 +15,11 @@ header {
     z-index: 999;
     padding: 10px 20px;
 }
-/* buat header jadi fixed di atas dan beri warna background blue */
 
 header.scrolled {
-    background: rgba(0, 0, 0, 0.5); /* Semitransparan */
-    backdrop-filter: blur(10px); /* Blur */
-    color: #fff; /* Warna teks menjadi lebih gelap */
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: #fff;
 }
 
 header h1 {
