@@ -1,0 +1,1 @@
+aku lahir dilingkungan sederhana, aku mengenal html semenjak 2014 vakum beberapa tahun karena keterbatasan waktu. aku mulai mengujinya kembali 2018 lalu vakum kembali, dan 2026 aku memulainya kembali walau harus seperti anak baru yang baru belajar mengetik. #keep_standalone
